@@ -10,8 +10,13 @@ In this project, _Python_ is used to explore data related to bike share systems 
 - According to the input the code will import the data and will provide information by computing descriptive statistics.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Richard Kalehoff (Udacity mentor)
+    - [https://github.com/richardkalehoff](https://github.com/richardkalehoff)
 
+* Juno Lee (Udacity Mentor)
+    - [https://github.com/junolee](https://github.com/junolee)
