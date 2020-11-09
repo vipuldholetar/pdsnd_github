@@ -131,10 +131,10 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    print("The total travel time : ", df['Trip Duration'].sum(), "\n")
+    print("The total travel time: ", df['Trip Duration'].sum(), "\n")
 
     # display mean travel time
-    print("The total mean time : ", df['Trip Duration'].mean())
+    print("The total mean time: ", df['Trip Duration'].mean())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -150,7 +150,8 @@ def user_stats(df, city):
     usertypes = df.groupby(['User Type'])['User Type'].count()
     print(usertypes, "\n")
 
-    if city != 'washington':  # Washington does not have gender birth year columns, so skipping from this statistics
+	# Washington does not have gender birth year columns, so skipping from this statistics
+    if city != 'washington':  
         # Display counts of gender
         gender = df.groupby(['Gender'])['Gender'].count()
         print(gender)
